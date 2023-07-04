@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WLiT</title>
+</head>
+<body>
+    <div id="div1">“I will change my color according to your choice</div><br/>
+    <input id="input1"type="text"/><br/><br/>
+    <button id="btn">Enter</button>
+    
+</body>
+<script>
+  var Btn = document.getElementById("btn");
+        Btn.addEventListener("click", function() {
+            var div1 = document.getElementById("div1");
+            var input1 = document.getElementById("input1").value;
+            div1.style.color = input1;
+        });
+</script>
+</html>
